@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    --white: #F4F3F4;
+    --green: #53CB17;
+    --light-green: #7BDB3B;
+    --dark-green: #38A003;
+}
+
+nav {
+    background: var(--light-green);
+    bottom: 0 !important;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav div div:hover {
+    background: var(--green);
+}
+
+nav div div:focus {
+    background: var(--white);
+}
+
+.topbar {
+    background: var(--green);
+    top: 0 !important;
+    position: fixed;
+    width: 100%;
+}

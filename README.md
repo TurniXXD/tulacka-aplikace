@@ -1,6 +1,22 @@
 # tulacka-aplikace
-Tulácká aplikace (PWA), MERN stack
+Tulácká aplikace
+Technologies:
+- React native
+- Realm
+- GraphQl
+- MongoDB
+
+API:
+- profiles (normal user, admin)
+- calendar
+- competition
+
 ? uživatelské profily - hosting
-- frontend
-- soutěže
+
+Plan:
+- [x] frontend návrh
+- [ ] frontend done
+- [ ] soutěže
+- [ ] calendar
 - [ ] notifikace
+- [ ] dynamické ukládání dat pro offline
